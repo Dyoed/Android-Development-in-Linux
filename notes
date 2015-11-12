@@ -105,3 +105,21 @@ adb devices
 Similarly, if fastboot devices returns no permissions, try running fastboot as root:
 
 sudo $(which fastboot) devices
+
+
+
+*SSH Config
+Host bitbucket.org
+	HostName bitbucket.org
+	User git
+	LogLevel VERBOSE
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_rsa
+Host bitbucket.org-onvolo
+	HostName bitbucket.org
+	User joedsantiago
+	LogLevel VERBOSE
+	PreferredAuthentications publickey
+	IdentitiesOnly yes
+	IdentityFile ~/.ssh/id_rsa_onvolo
+
