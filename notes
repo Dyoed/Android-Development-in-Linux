@@ -1,3 +1,6 @@
+Install 32 bit binaries
+sudo apt-get install lib32stdc++6
+
 UDEV
 Other languages:	English • ‎中文（中国大陆）‎
 To access devices connected to USB via adb or fastboot on linux, you need to configure udev rules. For detailed information about udev, take a look at udev - Arch Linux from the ArchLinux wiki (note that UDEV rules are not exclusive to Arch; udev is used in numerous distributions).
